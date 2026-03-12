@@ -498,14 +498,15 @@
     },
     {
       "name": "confluence-assistant",
-      "description": "Manage Confluence pages via Atlassian MCP — search, create, update, and comment with proper Markdown formatting. Auto-detects workspace configuration. Use when user says \"update Confluence\", \"create a Confluence page\", \"find that page in Confluence\", \"search Confluence\", or \"add a comment on Confluence\". Do NOT use for Jira operations (use jira-assistant).",
+      "description": "Expert in Confluence operations using Atlassian MCP. Use when the user says \"search Confluence\", \"create a Confluence page\", \"update a page\", \"find documentation in Confluence\", \"list spaces\", or \"add a comment to a page\". Do NOT use for Jira issues, general web search, or local file creation.",
       "category": "development",
       "path": "(development)/confluence-assistant",
       "files": [
-        "README.md",
         "SKILL.md"
       ],
-      "contentHash": "0c4c6993acb33dfc9bf925e18db0d762dceadbf36ab6bda4290475e4f97fad70"
+      "author": "Waldemar Neto - github.com/waldemarnt",
+      "version": "1.0.0",
+      "contentHash": "b9f019173a7d864db1d0a9eca13ee920d294806ea4c5cabfb626ccaedbaaeae7"
     },
     {
       "name": "core-web-vitals",
@@ -529,6 +530,33 @@
         "SKILL.md"
       ],
       "contentHash": "a33a142a73ac2e6b8db300acb3d13dba5077e225cbfad7599b0ac431290ab5c7"
+    },
+    {
+      "name": "create-adr",
+      "description": "Creates Architecture Decision Records (ADRs) to document significant architectural choices and their rationale for future team members. Use when the user says \"write an ADR\", \"document this decision\", \"record why we chose X\", \"add an architecture decision record\", \"create an ADR for\", or wants to capture the reasoning behind a technical choice so the team understands it later. Do NOT use when the decision hasn't been made yet (use create-rfc instead), for implementation planning (use technical-design-doc-creator), or for general documentation.",
+      "category": "creation",
+      "path": "(creation)/create-adr",
+      "files": [
+        "README.md",
+        "SKILL.md"
+      ],
+      "author": "Tech Leads Club - github.com/tech-leads-club",
+      "version": "1.0.0",
+      "contentHash": "47ec663c849e8c1620c6f33a7be0055acdcf838c27ab7c16f44260244b80195a"
+    },
+    {
+      "name": "create-rfc",
+      "description": "Creates structured Request for Comments (RFC) documents for proposing and deciding on significant changes. Use when the user says \"write an RFC\", \"create a proposal\", \"I need to propose a change\", \"draft an RFC\", \"document a decision\", or needs stakeholder alignment before making a major technical or process decision. Do NOT use for TDDs/implementation docs (use technical-design-doc-creator instead), README files, or general documentation.",
+      "category": "creation",
+      "path": "(creation)/create-rfc",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/section-templates.md"
+      ],
+      "author": "Tech Leads Club - github.com/tech-leads-club",
+      "version": "1.0.0",
+      "contentHash": "3f391b6c4397bb1590bbad511eca95c297dd0467e65385fa28b3724851c42ea8"
     },
     {
       "name": "cursor-subagent-creator",
