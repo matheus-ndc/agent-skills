@@ -1,3 +1,38 @@
+## 0.13.0 (2026-03-14)
+
+### 🚀 Features
+
+- add new skills to security scan allowlist for cold outreach and AI SDR workflows ([fa0ecd255](https://github.com/tech-leads-club/agent-skills/commit/fa0ecd255))
+- expand security scan allowlist with new skills for go-to-market strategies and third-party data integration ([36ef38f76](https://github.com/tech-leads-club/agent-skills/commit/36ef38f76))
+- add SNYK_TOKEN validation and error handling for scanning process ([33d8bcc1a](https://github.com/tech-leads-club/agent-skills/commit/33d8bcc1a))
+- implement handling for scanner infrastructure failures to prevent caching and ensure retries ([c3365ac1c](https://github.com/tech-leads-club/agent-skills/commit/c3365ac1c))
+- add paid creative AI skill ([e0313e7ff](https://github.com/tech-leads-club/agent-skills/commit/e0313e7ff))
+- add partner and affiliate program design skill ([e933ca912](https://github.com/tech-leads-club/agent-skills/commit/e933ca912))
+- add positioning and ICP skill documentation for AI products ([aa62b9fab](https://github.com/tech-leads-club/agent-skills/commit/aa62b9fab))
+- add sales motion design skill documentation ([586f2a46a](https://github.com/tech-leads-club/agent-skills/commit/586f2a46a))
+- add multi-platform launch skill documentation, including launch strategies, directory submission tactics, and quick reference checklists for effective execution ([909b59a71](https://github.com/tech-leads-club/agent-skills/commit/909b59a71))
+- add lead enrichment skill documentation ([9d1be857f](https://github.com/tech-leads-club/agent-skills/commit/9d1be857f))
+- add GTM engineering skill documentation ([033b35f5d](https://github.com/tech-leads-club/agent-skills/commit/033b35f5d))
+- add comprehensive content-to-pipeline skill documentation ([9363d904c](https://github.com/tech-leads-club/agent-skills/commit/9363d904c))
+- add new skills documentation for AI SEO, UGC Ads, Expansion & Retention, GTM Metrics, Social Selling, Solo Founder GTM, and Video Outreach ([163d13cdf](https://github.com/tech-leads-club/agent-skills/commit/163d13cdf))
+- add AI SDR skill documentation, including deployment strategies, signal detection frameworks, and quick reference checklists for effective implementation ([775d9c7c5](https://github.com/tech-leads-club/agent-skills/commit/775d9c7c5))
+- add comprehensive AI pricing skill documentation, including charge metrics, pricing strategies, margin management, and quick reference for effective implementation ([61b84ce92](https://github.com/tech-leads-club/agent-skills/commit/61b84ce92))
+- add AI cold outreach skill documentation with comprehensive guidelines on system setup, benchmarks, deliverability tactics, and quick reference for effective email campaigns ([2e2ed2df4](https://github.com/tech-leads-club/agent-skills/commit/2e2ed2df4))
+- introduce frontend design skill with comprehensive guidelines on aesthetics, interaction, motion, and responsive design ([d8415ac47](https://github.com/tech-leads-club/agent-skills/commit/d8415ac47))
+- add new Go-to-Market skills including AI cold outreach, pricing, SDR, SEO, UGC ads, and content-to-pipeline ([c1efee1f5](https://github.com/tech-leads-club/agent-skills/commit/c1efee1f5))
+
+### 💅 Refactors
+
+- update skill scanning process to use snyk-agent-scan instead of mcp-scan ([496c461c5](https://github.com/tech-leads-club/agent-skills/commit/496c461c5))
+
+### 📖 Documentation
+
+- update SKILL.md to use environment variable for DataForSEO credentials for improved security ([03da4d89a](https://github.com/tech-leads-club/agent-skills/commit/03da4d89a))
+
+### ❤️ Thank You
+
+- Felipe Rodrigues @felipfr
+
 ## 0.12.0 (2026-03-12)
 
 ### 🚀 Features

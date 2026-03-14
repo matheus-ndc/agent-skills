@@ -1,3 +1,7 @@
+## 1.4.4 (2026-03-14)
+
+This was a version bump only for @tech-leads-club/agent-skills to align it with other projects, there were no code changes.
+
 ## 1.4.3 (2026-03-12)
 
 ### 🚀 Features
