@@ -49,6 +49,7 @@ export default defineConfig([
             '@testing-library/react', // Used in tests only
             'fast-check', // Used in tests only
             '@nx/next', // Used in Next.js apps
+            'zod', // Runtime import in built CLI (from core lockfile); not a direct TS import in packages/cli
           ],
         },
       ],
