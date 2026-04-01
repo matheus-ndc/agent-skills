@@ -1,3 +1,13 @@
+## 0.1.3 (2026-04-01)
+
+### 🩹 Fixes
+
+- correct owner structure in marketplace.json and add mcp.json ([8e39105bf](https://github.com/tech-leads-club/agent-skills/commit/8e39105bf))
+
+### ❤️ Thank You
+
+- felipfr
+
 ## 0.1.2 (2026-03-12)
 
 This was a version bump only for @tech-leads-club/agent-skills-mcp to align it with other projects, there were no code changes.

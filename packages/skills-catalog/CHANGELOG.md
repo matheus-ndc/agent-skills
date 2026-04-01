@@ -1,3 +1,13 @@
+## 0.14.0 (2026-04-01)
+
+### 🚀 Features
+
+- add new skills to security scan allowlist for nestjs-modular-monolith and ai-cold-outreach ([8450e2c67](https://github.com/tech-leads-club/agent-skills/commit/8450e2c67))
+
+### ❤️ Thank You
+
+- felipfr
+
 ## 0.13.0 (2026-03-14)
 
 ### 🚀 Features

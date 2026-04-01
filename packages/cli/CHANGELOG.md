@@ -1,3 +1,17 @@
+## 1.4.5 (2026-04-01)
+
+### 💅 Refactors
+
+- **cli:** remove migrated services and update barrel ([cdc25bd1d](https://github.com/tech-leads-club/agent-skills/commit/cdc25bd1d))
+- **cli:** migrate view type imports to core ([e0bea0d3b](https://github.com/tech-leads-club/agent-skills/commit/e0bea0d3b))
+- **cli:** migrate hook imports to core ([04bf9cd71](https://github.com/tech-leads-club/agent-skills/commit/04bf9cd71))
+- **cli:** migrate command imports to core ([9ead38100](https://github.com/tech-leads-club/agent-skills/commit/9ead38100))
+- **cli:** add shared ports entrypoint ([a44948852](https://github.com/tech-leads-club/agent-skills/commit/a44948852))
+
+### ❤️ Thank You
+
+- Edmar Paulino
+
 ## 1.4.4 (2026-03-14)
 
 This was a version bump only for @tech-leads-club/agent-skills to align it with other projects, there were no code changes.
