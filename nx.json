@@ -111,5 +111,6 @@
       "inputs": ["production", "^production"]
     }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "analytics": false
 }
